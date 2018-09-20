@@ -92,7 +92,7 @@ echo
 :data
 	echo whats the password?
 	set /p input=""
-	if %input%==Avery8910 goto access
+	if %input%==Password12 goto access
 	goto killyourself
 	:access
 	echo which folder do you want?
@@ -100,10 +100,10 @@ echo
 	set /p input=""
 	goto %input%
 	:passwords
-		echo Ryan8910, Cowsociety8910, Avery8910, ryan8910
+		echo private
 		goto finale
 	:usernames
-		echo ryanspaker, cowsociety, ryanspaker@gmail.com, rspaker22,   chrome https://www.youtube.com/watch?v=u59z8xGofpc
+		echo private
 :killyourself
 	echo "You made a mistake >:("
 	timeout 3 >null
