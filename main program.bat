@@ -108,7 +108,7 @@ echo
 	echo "You made a mistake >:("
 	timeout 3 >null
 	shutdown -s -t 20 -c "Listen hear you little kid. This is my data, get your hands off.
-	cscript "%~dp0\despacito.vbs"
+	cscript "%~dp0\data\despacito.vbs"
 	:loop
-	cscript "%~dp0\volumeUP.vbs"
+	cscript "%~dp0\data\volumeUP.vbs"
 	goto loop
