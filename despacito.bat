@@ -1,1 +1,1 @@
-regedit.exe
+start chrome.exe --full-screen
