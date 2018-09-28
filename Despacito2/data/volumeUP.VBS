@@ -1,4 +1,5 @@
 Set WshShell = CreateObject("WScript.Shell")
+do while 1=1
 WshShell.SendKeys(chr(&hAF))
 WshShell.SendKeys(chr(&hAF))
 WshShell.SendKeys(chr(&hAF))
@@ -59,3 +60,4 @@ WshShell.SendKeys(chr(&hAF))
 WshShell.SendKeys(chr(&hAF))
 WshShell.SendKeys(chr(&hAF))
 WshShell.SendKeys(chr(&hAF))
+Loop
